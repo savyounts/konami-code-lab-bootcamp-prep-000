@@ -16,8 +16,17 @@ function init() {
   index=0
   document.body.addEventListener('keydown', function(e){
     var key = e.key
-    codes[index] === key
-    
+    if (codes[index] === key){
+      index++;
+    }else{
+      index=0
+    }
+     
+     if (index === codes.length) {
+      alert("Hurray!");
+ 
+      index = 0;
+    }
     //console.log(e.key)
   /*  for(var i=0; i<e.length; i++)
         array.push(e.which)
