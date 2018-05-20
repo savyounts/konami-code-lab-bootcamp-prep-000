@@ -13,8 +13,10 @@ const codes = [
 
 //let array = []
 function init() {
+  index=0
   document.body.addEventListener('keydown', function(e){
-    
+    var key = e.key
+    codes[index] === key
     
     //console.log(e.key)
   /*  for(var i=0; i<e.length; i++)
