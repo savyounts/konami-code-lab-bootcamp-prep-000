@@ -11,6 +11,14 @@ const codes = [
   "a"
 ];
 
+let array = []
 function init() {
-  // your code here
+  document.body.addEventListener('keydown', function(e){
+    for(var i=0; i<e.length; i++)
+        array.push(e.which)
+         if (array === codes){
+          alert ('Yay!');
+          index = 0;
+         }
+})
 }
