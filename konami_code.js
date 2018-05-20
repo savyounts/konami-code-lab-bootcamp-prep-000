@@ -14,12 +14,12 @@ const codes = [
 //let array = []
 function init() {
   document.body.addEventListener('keydown', function(e){
-    //onsole.log(e.key)
-    for(var i=0; i<e.length; i++)
+    //console.log(e.key)
+  /*  for(var i=0; i<e.length; i++)
         array.push(e.which)
          if (array === codes){
           alert ('Yay!');
           index = 0;
-         }
+         }*/
 })
 }
